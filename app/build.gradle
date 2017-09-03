@@ -6,8 +6,8 @@ apply plugin: 'jacoco'
 apply plugin: 'com.neenbedankt.android-apt'
 
 buildscript {
-//    ext.support_version = '23.1.1'
-    ext.support_version = '23.3.0'
+//    ext.support_version = '25.0.0'
+    ext.support_version = '25.0.0'
     ext.dagger_version = '2.4'
 
     repositories {
@@ -16,7 +16,7 @@ buildscript {
 
     dependencies {
         classpath 'net.saliman:gradle-cobertura-plugin:2.0.0' // cobertura plugin
-        classpath 'org.kt3k.gradle.plugin:coveralls-gradle-plugin:2.3.1'
+        classpath 'org.kt3k.gradle.plugin:coveralls-gradle-plugin:2.3.3'
     }
 }
 
